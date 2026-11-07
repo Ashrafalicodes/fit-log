@@ -247,6 +247,7 @@ const Myplan = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

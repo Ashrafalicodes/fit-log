@@ -5,9 +5,7 @@ import React from 'react';
 
 const Card = ({ workout }: { workout: WorkoutType }) => {
   return (
-  <Link href={`/workout/${workout.id}`}
-    className="w-full max-w-full bg-[#15171d] border border-gray-800 rounded-xl overflow-hidden hover:border-lime-400/50 transition-all duration-300 group"
-  >
+  <Link href={`/workout/${workout.id}`}>
     <div className="w-full max-w-full bg-[#15171d] border border-gray-800 rounded-xl overflow-hidden hover:border-lime-400/50 transition-all duration-300 group">
 
       {/* Workout Image */}
@@ -70,6 +68,7 @@ const Card = ({ workout }: { workout: WorkoutType }) => {
 
         </div>
       </div>
+          
     </div>
   </Link>
   );
